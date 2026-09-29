@@ -8,7 +8,7 @@ cask "burrow" do
   homepage "https://burrow.ekaksh.in"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Burrow.app"
 
