@@ -1,6 +1,6 @@
 cask "burrow" do
-  version "0.10.0"
-  sha256 "0515bfe5ca9fd14b43b4b60388e99e7da533084fcc6d973a859ea4e6a75c5faa"
+  version "0.10.1"
+  sha256 "9e55b499f0253cf4d20611429b3d7d7747fd70fb3b9fd785adf9e568a6639260"
 
   url "https://burrow.ekaksh.in/download/Burrow-#{version}.dmg"
   name "Burrow"
