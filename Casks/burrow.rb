@@ -1,6 +1,6 @@
 cask "burrow" do
-  version "0.15.1"
-  sha256 "c9b17f14e71f202b85d7876e147574e927493e15616ab9f9d33a52f1c9429c30"
+  version "0.15.2"
+  sha256 "40d9ed66b32e509a1e6b3074b7faa230a01dd7bd6df12a99bbed7241667517f5"
 
   url "https://burrow.ekaksh.in/download/Burrow-#{version}.dmg"
   name "Burrow"
@@ -23,5 +23,7 @@ cask "burrow" do
     "~/Library/Application Support/Burrow",
     "~/Library/Preferences/in.ekaksh.burrow.plist",
     "~/Library/Preferences/in.ekaksh.burrow.menu.plist",
+    "~/Library/LaunchAgents/in.ekaksh.burrow.login.plist",
+    "~/Library/LaunchAgents/in.ekaksh.burrow.watch.plist",
   ]
 end
